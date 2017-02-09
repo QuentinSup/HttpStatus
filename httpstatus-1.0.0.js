@@ -82,7 +82,7 @@ var HttpStatus = {
 	ConnectionTimedOut: 522, //	Cloudflare na pas pu négocier un TCP handshake avec le serveur dorigine.
 	OriginIsUnreachable: 523, //	Cloudflare na pas réussi à joindre le serveur dorigine. Cela peut se produire en cas déchec de résolution de nom de serveur DNS.
 	ATimeoutOccurred: 524, //	Cloudflare a établi une connection TCP avec le serveur dorigine mais na pas reçu de réponse HTTP avant lexpiration du délai de connexion.
-	SSL: 525, // Handshake Failed	Cloudflare na pas pu négocier un SSL/TLS handshake avec le serveur dorigine.
+	SSLHandshakeFailed: 525, // Handshake Failed	Cloudflare na pas pu négocier un SSL/TLS handshake avec le serveur dorigine.
 	InvalidSSLCertificate: 526, //Cloudflare na pas pu valider le certificat SSL présenté par le serveur dorigine.
 	RailgunError: 527 //	Lerreur 527 indique que la requête a dépassé le délai de connexion ou a échoué après que la connexion WAN ait été établie.
 }
