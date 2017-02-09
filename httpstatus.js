@@ -73,7 +73,7 @@ var HttpStatus = {
 	'HTTPVersionNotSupported': '505', //Version HTTP non gérée par le serveur.
 	'VariantAlsoNegotiates': '506', //	RFC 229514 : Erreur de négociation. Transparent content negociation.
 	'InsufficientStorage': '507', //	WebDAV : Espace insuffisant pour modifier les propriétés ou construire la collection.
-	'Loop detected': '508', //	WebDAV : Boucle dans une mise en relation de ressources (RFC 584215).
+	'LoopDetected': '508', //	WebDAV : Boucle dans une mise en relation de ressources (RFC 584215).
 	'BandwidthLimitExceeded': '509', //	Utilisé par de nombreux serveurs pour indiquer un dépassement de quota.
 	'NotExtended': '510', // RFC 277416 : la requête ne respecte pas la politique d'accès aux ressources HTTP étendues.
 	'NetworkAuthenticationRequired': '511', //	RFC 658517 : Le client doit s'authentifier pour accéder au réseau. Utilisé par les portails captifs pour rediriger les clients vers la page d'authentification.
