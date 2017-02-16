@@ -1,10 +1,14 @@
 <?php
 
 /** HTTP status codes */
-class HttpStatus extends SplEnum {
+final class HttpStatus {
 	
-    const __default = self::OK;
-    
+	private function __construct(){
+      /*
+        Preventing instance :)
+      */
+     }
+	
     const SWITCHING_PROTOCOLS = 101;
     const OK = 200;
     const CREATED = 201;
@@ -44,6 +48,7 @@ class HttpStatus extends SplEnum {
     const SERVICE_UNAVAILABLE = 503;
     const GATEWAY_TIMEOUT = 504;
     const HTTP_VERSION_NOT_SUPPORTED = 505;
+ 
 }
 
 ?>
